@@ -6,6 +6,6 @@ install:
   - ln -s $PWD $(brew --repo)/Library/Taps/travis-testtap
   - brew tap --repair
 script:
-  - brew audit julienmoumne/hotshell/hs
-  - brew install -v julienmoumne/hotshell/hs
-  - brew test julienmoumne/hotshell/hs
+  - brew audit hs
+  - brew install -v hs
+  - brew test hs
