@@ -2,8 +2,8 @@ language: objective-c
 before_install:
   - brew update
 install:
-  - mkdir -p $(brew --repo)/Library/Taps/julienmoumne/hotshell/Formula
-  - cp $PWD/Formula/hs.rb $(brew --repo)/Library/Taps/julienmoumne/hotshell/Formula/
+  - mkdir -p $(brew --repo)/Library/Taps/julienmoumne/homebrew-hotshell/Formula
+  - cp $PWD/Formula/hs.rb $(brew --repo)/Library/Taps/julienmoumne/homebrew-hotshell/Formula/
   - brew tap --repair
 script:
   - brew audit hs
