@@ -4,7 +4,6 @@ before_install:
 install:
   - mkdir -p $(brew --repo)/Library/Taps/julienmoumne/homebrew-hotshell/Formula
   - cp $PWD/Formula/hs.rb $(brew --repo)/Library/Taps/julienmoumne/homebrew-hotshell/Formula/
-  - brew tap --repair
 script:
   - brew audit hs
   - brew install -v hs
