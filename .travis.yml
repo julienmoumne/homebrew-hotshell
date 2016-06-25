@@ -2,6 +2,6 @@ language: objective-c
 before_install:
   - brew update
 script:
-  - brew audit julienmoumne/hotshell/hs
   - brew install julienmoumne/hotshell/hs
+  - brew audit julienmoumne/hotshell/hs
   - brew test julienmoumne/hotshell/hs
