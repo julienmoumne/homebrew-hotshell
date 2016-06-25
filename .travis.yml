@@ -2,8 +2,7 @@ language: objective-c
 before_install:
   - brew update
 install:
-  - cp --parents $PWD/Formula/hs.rb $(brew --repo)/Library/Taps/hotshell/Formula/
-  - brew tap --repair
+  - cp -p $PWD/Formula/hs.rb $(brew --repo)/Library/Taps/hotshell/Formula/
 script:
   - brew audit hs
   - brew install -v hs
