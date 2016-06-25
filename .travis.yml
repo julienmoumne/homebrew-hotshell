@@ -1,4 +1,5 @@
 language: objective-c
 script:
+  - brew audit julienmoumne/hotshell/hs
   - brew install julienmoumne/hotshell/hs
   - brew test julienmoumne/hotshell/hs
