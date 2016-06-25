@@ -1,0 +1,3 @@
+language: objective-c
+script:
+  - brew test julienmoumne/hotshell/hs
