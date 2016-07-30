@@ -3,8 +3,8 @@ require "language/go"
 class Hs < Formula
   desc "Command-line application to efficiently recall and share commands"
   homepage "https://julienmoumne.github.com/hotshell"
-  url "https://github.com/julienmoumne/hotshell/archive/v0.1.0.tar.gz"
-  sha256 "0ee2f8385c8eb7a2e858071317e67ea07075242a24f971c72887cf73641a4e3f"
+  url "https://github.com/julienmoumne/hotshell/archive/v0.2.0.tar.gz"
+  sha256 "dc020f5ad7950780f4a079ae1f677e0775e7fe953fff5fd7b41881a99072f8dd"
 
   head "https://github.com/julienmoumne/hotshell.git"
 
