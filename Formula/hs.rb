@@ -1,3 +1,5 @@
+require "language/go"
+
 class Hs < Formula
   desc "Command-line application to efficiently recall and share commands"
   homepage "https://julienmoumne.github.com/hotshell"
