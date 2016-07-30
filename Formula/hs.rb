@@ -1,5 +1,3 @@
-require "language/go"
-
 class Hs < Formula
   desc "Command-line application to efficiently recall and share commands"
   homepage "https://julienmoumne.github.com/hotshell"
@@ -13,8 +11,8 @@ class Hs < Formula
   def install
     ENV["GOPATH"] = buildpath
     mkdir_p buildpath/"src/github.com/julienmoumne"
-    ln_s buildpath, buildpath/"src/github.com/julienmoumne/hs"
-    system "go", "build", "-o", bin/"hs", "./src/github.com/julienmoumne/hs/cmd/hs"
+    ln_s buildpath, buildpath/"src/github.com/julienmoumne/hotshell"
+    system "go", "build", "-o", bin/"hs", "./src/github.com/julienmoumne/hotshell/cmd/hs"
     man1.install "./debian/usr/share/man/man1/hs.1.gz"
   end
 
