@@ -1,8 +1,8 @@
 class Hs < Formula
   desc "Command-line application to efficiently recall and share commands"
   homepage "https://julienmoumne.github.com/hotshell"
-  url "https://github.com/julienmoumne/hotshell/archive/v0.3.0.tar.gz"
-  sha256 "ab8c8a3c18ee7913e1ad5f32688fba6ab92b1a183f78d9285abb2425cda7a6ff"
+  url "https://github.com/julienmoumne/hotshell/archive/v0.4.0.tar.gz"
+  sha256 "67e8708aa580b06e1ccd9c7a62922b5cc53fb781c174a0aad3cacd33ef69483b"
 
   head "https://github.com/julienmoumne/hotshell.git"
 
